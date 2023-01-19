@@ -55,14 +55,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -79,7 +71,15 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.button_save = new System.Windows.Forms.Button();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -315,62 +315,6 @@
             this.label14.TabIndex = 25;
             this.label14.Text = "Numer albumu";
             // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(405, 437);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(141, 23);
-            this.textBox7.TabIndex = 26;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(405, 475);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(141, 23);
-            this.textBox8.TabIndex = 27;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(405, 518);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(141, 23);
-            this.textBox9.TabIndex = 28;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(405, 557);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(141, 23);
-            this.textBox10.TabIndex = 29;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(601, 437);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(141, 23);
-            this.textBox11.TabIndex = 30;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(601, 475);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(141, 23);
-            this.textBox12.TabIndex = 31;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(601, 518);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(141, 23);
-            this.textBox13.TabIndex = 32;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(601, 557);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(141, 23);
-            this.textBox14.TabIndex = 33;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -504,12 +448,77 @@
             this.button_save.UseVisualStyleBackColor = true;
             this.button_save.Click += new System.EventHandler(this.button_save_Click);
             // 
-            // textBox22
+            // maskedTextBox1
             // 
-            this.textBox22.Location = new System.Drawing.Point(581, 927);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(141, 23);
-            this.textBox22.TabIndex = 51;
+            this.maskedTextBox1.Location = new System.Drawing.Point(405, 426);
+            this.maskedTextBox1.Mask = "999999";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox1.TabIndex = 52;
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Location = new System.Drawing.Point(405, 472);
+            this.maskedTextBox2.Mask = "999999";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox2.TabIndex = 53;
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Location = new System.Drawing.Point(581, 429);
+            this.maskedTextBox3.Mask = "00/00/0000";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox3.TabIndex = 54;
+            // 
+            // maskedTextBox4
+            // 
+            this.maskedTextBox4.Location = new System.Drawing.Point(405, 562);
+            this.maskedTextBox4.Mask = "999999";
+            this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox4.TabIndex = 55;
+            // 
+            // maskedTextBox5
+            // 
+            this.maskedTextBox5.Location = new System.Drawing.Point(405, 518);
+            this.maskedTextBox5.Mask = "999999";
+            this.maskedTextBox5.Name = "maskedTextBox5";
+            this.maskedTextBox5.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox5.TabIndex = 56;
+            // 
+            // maskedTextBox6
+            // 
+            this.maskedTextBox6.Location = new System.Drawing.Point(581, 472);
+            this.maskedTextBox6.Mask = "00/00/0000";
+            this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox6.TabIndex = 57;
+            // 
+            // maskedTextBox7
+            // 
+            this.maskedTextBox7.Location = new System.Drawing.Point(581, 518);
+            this.maskedTextBox7.Mask = "00/00/0000";
+            this.maskedTextBox7.Name = "maskedTextBox7";
+            this.maskedTextBox7.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox7.TabIndex = 58;
+            // 
+            // maskedTextBox8
+            // 
+            this.maskedTextBox8.Location = new System.Drawing.Point(581, 565);
+            this.maskedTextBox8.Mask = "00/00/0000";
+            this.maskedTextBox8.Name = "maskedTextBox8";
+            this.maskedTextBox8.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox8.TabIndex = 59;
+            // 
+            // maskedTextBox9
+            // 
+            this.maskedTextBox9.Location = new System.Drawing.Point(581, 927);
+            this.maskedTextBox9.Mask = "00/00/0000";
+            this.maskedTextBox9.Name = "maskedTextBox9";
+            this.maskedTextBox9.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox9.TabIndex = 60;
             // 
             // Form1
             // 
@@ -517,7 +526,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(841, 1025);
-            this.Controls.Add(this.textBox22);
+            this.Controls.Add(this.maskedTextBox9);
+            this.Controls.Add(this.maskedTextBox8);
+            this.Controls.Add(this.maskedTextBox7);
+            this.Controls.Add(this.maskedTextBox6);
+            this.Controls.Add(this.maskedTextBox5);
+            this.Controls.Add(this.maskedTextBox4);
+            this.Controls.Add(this.maskedTextBox3);
+            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.button_save);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
@@ -534,14 +551,6 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox6);
@@ -604,14 +613,6 @@
         private TextBox textBox6;
         private Label label13;
         private Label label14;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
         private Label label15;
         private Label label16;
         private Label label17;
@@ -628,6 +629,14 @@
         private Label label22;
         private Label label23;
         private Button button_save;
-        private TextBox textBox22;
+        private MaskedTextBox maskedTextBox1;
+        private MaskedTextBox maskedTextBox2;
+        private MaskedTextBox maskedTextBox3;
+        private MaskedTextBox maskedTextBox4;
+        private MaskedTextBox maskedTextBox5;
+        private MaskedTextBox maskedTextBox6;
+        private MaskedTextBox maskedTextBox7;
+        private MaskedTextBox maskedTextBox8;
+        private MaskedTextBox maskedTextBox9;
     }
 }
